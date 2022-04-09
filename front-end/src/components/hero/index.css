@@ -1,0 +1,38 @@
+.Hero {
+  top: 50%;
+  left: 50%;
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+}
+
+.Hero-Text {
+  margin: auto;
+  padding-left: 10%;
+}
+.Hero-Text span {
+  color: var(--green);
+}
+.Hero img {
+  padding-top: 100px;
+  margin: auto;
+  max-width: 50vw;
+}
+.Button {
+  margin: auto auto 10vh 0;
+  padding: 5px 0;
+  background-color: var(--green);
+  max-width: 250px;
+  box-shadow: 25px 25px 50px rgba(51, 188, 132, 0.3);
+  border-radius: 47px;
+}
+.Button a {
+  font-weight: 500;
+  margin: auto auto auto 30px;
+  color: var(--main-bg-color);
+}
+.Button i {
+  font-size: 25px;
+  color: var(--main-bg-color);
+  margin: auto auto auto 10px;
+}
