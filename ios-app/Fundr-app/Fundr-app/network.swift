@@ -11,7 +11,7 @@ class Network: ObservableObject {
   @Published var founders: [Founder] = []
   
   func getFounders() {
-      guard let url = URL(string: "http://73.241.165.82:8080/founder?count=3") else { fatalError("Missing URL") }
+      guard let url = URL(string: "http://73.241.165.82:8080/founder?count=4") else { fatalError("Missing URL") }
 
       let urlRequest = URLRequest(url: url)
 
@@ -21,10 +21,10 @@ class Network: ObservableObject {
               return
           }
 
-          guard let response = response as? HTTPURLResponse else { return }
+        guard let response = response as? HTTPURLResponse else { print("error 1"); return }
 
           if response.statusCode == 200 {
-              guard let data = data else { return }
+            guard let data = data else { print("error 2"); return }
               DispatchQueue.main.async {
                   do {
                       let decodedFounders = try JSONDecoder().decode([Founder].self, from: data)

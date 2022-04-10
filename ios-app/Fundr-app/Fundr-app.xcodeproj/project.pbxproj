@@ -33,6 +33,7 @@
 		F25172CE280268090041FB5D /* company_card.swift in Sources */ = {isa = PBXBuildFile; fileRef = F25172CD280268090041FB5D /* company_card.swift */; };
 		F25172D0280270BA0041FB5D /* data.swift in Sources */ = {isa = PBXBuildFile; fileRef = F25172CF280270BA0041FB5D /* data.swift */; };
 		F25172D22802724E0041FB5D /* network.swift in Sources */ = {isa = PBXBuildFile; fileRef = F25172D12802724E0041FB5D /* network.swift */; };
+		F25172D42802A7310041FB5D /* bezos.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F25172D32802A7310041FB5D /* bezos.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -63,6 +64,8 @@
 		F25172CD280268090041FB5D /* company_card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = company_card.swift; sourceTree = "<group>"; };
 		F25172CF280270BA0041FB5D /* data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = data.swift; sourceTree = "<group>"; };
 		F25172D12802724E0041FB5D /* network.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = network.swift; sourceTree = "<group>"; };
+		F25172D32802A7310041FB5D /* bezos.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bezos.jpg; sourceTree = "<group>"; };
+		F25172D52802B1A60041FB5D /* money.svg */ = {isa = PBXFileReference; lastKnownFileType = text; name = money.svg; path = "../../../../front-end/src/images/money.svg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -144,6 +147,8 @@
 		F25172CC28025DB90041FB5D /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				F25172D52802B1A60041FB5D /* money.svg */,
+				F25172D32802A7310041FB5D /* bezos.jpg */,
 				F25172CA28025DA80041FB5D /* avatar-29.png */,
 			);
 			path = Images;
@@ -212,6 +217,7 @@
 				F25172B828025CA10041FB5D /* Poppins-ExtraLight.ttf in Resources */,
 				F25172C628025CA10041FB5D /* Poppins-Thin.ttf in Resources */,
 				F25172C828025CA10041FB5D /* Poppins-Italic.ttf in Resources */,
+				F25172D42802A7310041FB5D /* bezos.jpg in Resources */,
 				F25172C228025CA10041FB5D /* Poppins-Regular.ttf in Resources */,
 				F25172B928025CA10041FB5D /* Poppins-ThinItalic.ttf in Resources */,
 				F25172BA28025CA10041FB5D /* Poppins-ExtraLightItalic.ttf in Resources */,

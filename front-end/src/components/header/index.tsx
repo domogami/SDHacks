@@ -6,10 +6,10 @@ function Header() {
     <div className="Header">
       <img className="Logo" alt="logo" src={logo}></img>
       <p className="Fundr">Fundr</p>
-      <p><a className="Head-Items" href="/">Our Mission</a></p>
-      <p><a className="Head-Items" href="/">Showcase</a></p>
-      <p><a className="Head-Items" href="/">Our Team</a></p>
-      <a href="/" className="Action-Button">Download</a>
+      <p><a className="Head-Items" href="https://github.com/domogami/SDHacks">Our Mission</a></p>
+      <p><a className="Head-Items" href="https://github.com/domogami/SDHacks">Showcase</a></p>
+      <p><a className="Head-Items" href="https://github.com/domogami/SDHacks">Our Team</a></p>
+      <a href="https://github.com/domogami/SDHacks" className="Action-Button">Download</a>
     </div>
 
   );
