@@ -6,11 +6,11 @@ function Hero() {
   <div className='Hero-Text'>
     <h1>An Easy Way to Connect <span>Businesses</span> and <span>Investors</span></h1>
     <div className="Button">
-      <a>Learn More <i className="fa fa-arrow-right" aria-hidden="true"></i></a>
+      <a href="/">Learn More <i className="fa fa-arrow-right" aria-hidden="true"></i></a>
     </div>
   </div>
   
-  <img src={Phones}></img>
+  <img alt="Phones" src={Phones}></img>
 </div> );
 }
 

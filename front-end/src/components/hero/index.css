@@ -30,6 +30,7 @@
   font-weight: 500;
   margin: auto auto auto 30px;
   color: var(--main-bg-color);
+  text-decoration: none;
 }
 .Button i {
   font-size: 25px;
