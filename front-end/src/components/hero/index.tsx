@@ -6,7 +6,7 @@ function Hero() {
   <div className='Hero-Text'>
     <h1>An Easy Way to Connect <span>Businesses</span> and <span>Investors</span></h1>
     <div className="Button">
-      <a href="/">Learn More <i className="fa fa-arrow-right" aria-hidden="true"></i></a>
+      <a href="https://github.com/domogami/SDHacks">Learn More <i className="fa fa-arrow-right" aria-hidden="true"></i></a>
     </div>
   </div>
   
